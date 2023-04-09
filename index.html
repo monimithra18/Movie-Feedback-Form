@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+
+<label for="file">Form Completion:</label>
+<progress id="file" value="69" max="100"> 69% </progress>
+
+<div class="feedback">
+<h1> <center> Movie Review Feedback Form</center> </h1>
+
+<h4>Hi there! This is a feedback form regarding the recent movie you have watched. We wish that you kindly fill this form with your personal responses. We thank you for your valuable time in advance.</h4>
+</head>
+<form>
+    First Name: <input type="text" name="firstname" size="50"/> 
+<br>
+    Last Name: <input type="text" name="lastname" size="50"/> <br/>
+    <br>
+
+    <label for="gender">Gender: </label>
+              <input type="radio" id="gender" name="gender" value="male"/>Male
+              <input type="radio" id="gender" name="gender" value="female"/>Female <br/>
+              <br>
+    Phone Number : <input type="text" name="address" size="50"/>
+ <br> <p></p>
+    Email :  <input type="text" name="Email" size="50"/> <br>
+</form>
+
+<p>
+
+</p>
+  <div class="form-control">
+    <label for="age" id="label-age">
+      Age :
+    </label>
+    <input type="number" id="age" size="20" />
+  </div>
+<br>
+  <form>
+      Address : <input type="text" name="address" size="50"/> <br/>
+      <br>
+  
+  </form>
+
+  <div class="form-control">
+    <label for="role" id="label-role">
+      Which option best describes you?
+    </label>
+    <select name="role" id="role">
+      <option value="Student">Student</option>
+      <option value="Unemployed">Intern</option>
+      <option value="Working">Professional</option>
+      <option value="Others	">Other</option>
+    </select>
+  </div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  .checked {
+    color: red;
+  }
+  </style>
+  </head>
+
+
+  <body>
+<form><br>
+      Name of the movie : <input type="text" name="mvie_name" size="50"/> <br/>
+     
+  
+  </form>
+  <p>How do u rate the movie?</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+<br>
+<br>
+
+  <div class="form-control">
+    <label id="label-attendance">
+      Will you watch this movie again ?
+    </label>
+    <label for="attend-1" id="label-attend-1">
+      <input type="radio" id="attend-1" name="attend">Yes</input>
+    </label>
+    <label for="attend-2" id="label-attend-2">
+      <input type="radio" id="attend-2" name="attend">No</input>
+    </label>
+  </div>
+
+<br>
+  <div class="form-control">
+    <label>What did you like about the movie experience?</label>
+    <br>
+    <br>
+    <label for="inp-1">
+      <input type="checkbox" name="inp">Movie</input>
+    </label>
+    <br>
+    <label for="inp-2">
+      <input type="checkbox" name="inp">Thetre Ambience</input>
+    </label>
+    <br>
+    <label for="inp-3">
+      <input type="checkbox" name="inp">Food</input>
+    </label>
+    <br>
+    <label for="inp-4">
+      <input type="checkbox" name="inp">Washrooms</input>
+    </label>
+    <br>
+    <label for="inp-5">
+      <input type="checkbox" name="inp">Others</input>
+    </label>
+  </div>
+<br>
+<form action="/action_page.php">
+  <label for="myfile">Upload your ticket:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+</form>
+<br>
+
+<div class="form-control">
+    <label for="comment">
+      Any other comments or suggestions
+    </label>
+    <textarea name="comment" id="comment" placeholder="Enter your comment here">
+            </textarea>
+  </div>
+  <div class="button">
+    <button type="reset" value="reset" id="reset">
+      Reset
+    </button>
+	<button type="save" value="save" id="save">
+      Save
+    </button>
+    <button type="submit" value="submit" id="submit">
+      Submit
+    </button>
+  </div>
+</form>
